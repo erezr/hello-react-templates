@@ -1,0 +1,7 @@
+<div>
+  <form>
+    <input name="erez" onChange="(val) => this.onNameChange(val)">
+  </form>
+
+  <h2>{this.state.name} makes ShaiK over-react</h2>
+</div>
