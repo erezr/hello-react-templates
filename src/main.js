@@ -16,7 +16,7 @@ requirejs.config({
     }
 });
 
-requirejs(['react', 'reactDOM', './form/form'], function (React, ReactDOM, hello) {
+requirejs(['react', 'reactDOM', './hello'], function (React, ReactDOM, hello) {
     'use strict';
     ReactDOM.render(React.createElement(hello), document.getElementById('container'));
 });

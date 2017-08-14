@@ -1,0 +1,7 @@
+<div>
+  <form>
+    <input rt-repeat="item in this.getInputs()" placeholder="{item}" name="{item}" onChange="(val) => this.onChange(val)">
+  </form>
+
+  <h2>erez makes ShaiK over-react</h2>
+</div>

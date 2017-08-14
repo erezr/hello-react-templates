@@ -1,3 +1,6 @@
+<rt-require dependency="./panel/panel" as="myDynamicForm"/>
+
 <div>
   <h2>ShaiK likes to over-react</h2>
+  <myDynamicForm/>
 </div>
